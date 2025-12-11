@@ -1,0 +1,4 @@
+flask[async]
+requests 
+cryptography
+msgraph-sdk>=1.39.0
