@@ -43,7 +43,7 @@ class OneDriveOAuthProvider:
             redirect_uri=redirect_uri,
             scopes=scopes,
             response_type="code",
-            prompt="consent",
+            # prompt="consent",
         )
 
         self.scopes = scopes
