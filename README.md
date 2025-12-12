@@ -16,8 +16,13 @@ npm install axios
 # 启动前端服务（监听内网IP）
 npm run dev -- --host 0.0.0.0 --port 5173
 
+npm run dev -- --host 0.0.0.0 --port 15400
+
 # 安装后端依赖
 pip install -r requirements.txt
 
 # 启动后端服务
 env CLIENT_SECRET=<your_client_secret_here> python main.py --debug
+
+Blocked request. This host ("ofnil-kms-connector.kasma.ai") is not allowed.
+To allow this host, add "ofnil-kms-connector.kasma.ai" to `server.allowedHosts` in vite.config.js.
